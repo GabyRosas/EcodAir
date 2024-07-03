@@ -1,7 +1,9 @@
 import React from "react";
 import {SectionTotalContainer, SectionMeter, ImageMeter, SectionInfo, ContainerGood, ContainerModerate, ContainerSensitive,ContainerUnhealthy, ContainerVeryUnhealthy, ContainerHazardous} from "./ColorsMeter.scss"
 
-import ImageMeter from "../../assets/images";
+import ImageMeter from "../../assets/images/meter.png"
+    
+
 
 const ColorsMeter = () => {
     return (
