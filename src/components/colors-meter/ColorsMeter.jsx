@@ -1,7 +1,7 @@
 import React from "react";
-import {SectionTotalContainer, SectionMeter, ImageMeter, SectionInfo, ContainerGood, ContainerModerate, ContainerSensitive,ContainerUnhealthy, ContainerVeryUnhealthy, ContainerHazardous} from "./ColorsMeter.scss"
+import {SectionTotalContainer, SectionMeter, MeterImage, SectionInfo, ContainerGood, ContainerModerate, ContainerSensitive,ContainerUnhealthy, ContainerVeryUnhealthy, ContainerHazardous} from "./ColorsMeter.scss"
 
-import ImageMeter from "../../assets/images/meter.png"
+import MeterImage from "../../assets/images/meter.png"
     
 
 
@@ -11,7 +11,7 @@ const ColorsMeter = () => {
 <SectionTotalContainer>
 
 <SectionMeter>
-<ImageMeter src = {ImageMeter} alt = "ImageMeter" />
+<ImageMeter src = {MeterImage} alt = "ImageMeter" />
 </SectionMeter>
 
 <SectionInfo>
