@@ -59,6 +59,13 @@ If you wish to contribute to this project, follow these steps:
 - Push to the branch (git push origin feature-branch).
 - Create a new Pull Request.
 
+***
+
+Running Tests We have implemented tests to ensure the functionality of the project. To run the tests, you can use the following command: 
+- npm vitest
+- :)
+
+
   
 ## Farewell
 Thank you for taking the time to check out our project! We hope it provides valuable insights and contributes to better understanding and management of air quality.
