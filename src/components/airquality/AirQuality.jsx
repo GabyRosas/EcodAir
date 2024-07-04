@@ -1,5 +1,5 @@
 import useApi from '../../services/useApi';
-
+import './AirQuality.scss'
 
 function AirQuality() {
    
@@ -10,7 +10,7 @@ function AirQuality() {
           }
        
     return (
-        <div>
+        <div class="test">
         <h2>Calidad del Aire en {data.data.city.name}</h2>
         <p><strong>Índice AQI:</strong> {data.data.aqi}</p>
         <p><strong>Contaminante dominante:</strong> {data.data.dominentpol}</p>
