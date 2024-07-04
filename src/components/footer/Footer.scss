@@ -1,0 +1,27 @@
+/* Footer.scss */
+.nav-link {
+  margin-right: 20px; 
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 1em 0;
+  text-align: center;
+  flex-direction: row;
+}
+
+.footer .nav-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      gap: 10px;
+  }
+}

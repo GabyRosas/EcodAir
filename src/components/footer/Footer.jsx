@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import './Footer.css';
+import './Footer.scss';
 
 const Footer = () => {
     return (
