@@ -1,64 +1,30 @@
 import React from "react";
-import {SectionTotalContainer, SectionMeter, MeterImage, SectionInfo, ContainerGood, ContainerModerate, ContainerSensitive,ContainerUnhealthy, ContainerVeryUnhealthy, ContainerHazardous} from "./ColorsMeter.scss"
-
-import MeterImage from "../../assets/images/meter.png"
-    
+import "./ColorsMeter.scss"
+import Meter from "../../assets/images/meter.png";
 
 
 const ColorsMeter = () => {
     return (
         <>
-<SectionTotalContainer>
-
-<SectionMeter>
-<ImageMeter src = {MeterImage} alt = "ImageMeter" />
-</SectionMeter>
-
-<SectionInfo>
-
-<ContainerGood>
-<Description>
-    Air quality is considereded satisfactory.
-</Description>
-</ContainerGood>
-
-<ContainerModerate>
-    <Description>
-Air quality is acceptable; however, a very small number of people who are unusually sensitive to air pollution.
-    </Description>
-</ContainerModerate>
 
 
-<ContainerSensitive>
-    <Description>
-Members of sensitive groups may experience health effects.
-    </Description>
-</ContainerSensitive>
+<div className='container'>
+ <div div className='image-container'>
+<img src = {Meter} alt = "Meter" />
+</div>
 
 
-<ContainerUnhealthy>
-    <Description>
-        Everyone may experience more serious health effects
-    </Description>
-</ContainerUnhealthy>
+<div className='bars-container'>
+<div className='bar good'>Air quality is considereded satisfactory.</div>
+<div className='bar moderate'>Air quality is acceptable; however, a very small number of people who are unusually sensitive to air pollution.</div>
+<div className='bar sensitive'>Members of sensitive groups may experience health effects.</div>
+<div className='bar unhealthy'>Everyone may experience more serious health effects.</div>
+<div className='bar very-unhealthy'>Everyone may experience more serious health effects.</div>
+<div className='bar hazardous'>Health warnings of emergency conditions. The entire population is more likely to be affected.</div>
+</div>
+</div>
 
 
-<ContainerVeryUnhealthy>
-    <Description>
-        Everyone may experience more serious health effects.
-    </Description>
-</ContainerVeryUnhealthy>
-
-<ContainerHazardous>
-    <Description>
-Health warnings of emergency conditions. The entire population is more likely to be affected.
-    </Description>
-</ContainerHazardous>
-
-
-</SectionInfo>
-
-</SectionTotalContainer>
 
 </>
     );
