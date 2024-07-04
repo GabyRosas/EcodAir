@@ -1,11 +1,10 @@
 
+import Homes from "../components/home/Homes";
+
 const Home = () => {
     return (
         <>
-            
-            <h1>HomePage</h1>
-            <p>lsdjalksjdlkasj</p>
-            <Home/>
+                <Homes/>
         </>
     )
 }
