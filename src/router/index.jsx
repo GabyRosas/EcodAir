@@ -8,6 +8,7 @@ import Location from "../pages/Location";
 
 
 
+
 export const router = createBrowserRouter([
     {
         path: "/",
