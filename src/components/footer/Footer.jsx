@@ -15,7 +15,7 @@ const Footer = () => {
             <NavLink to="/leyenda" className="nav-link">
                 <img src="/images/iconos/leyendaIcon.svg" alt="Leyenda" className="nav-icon" />
             </NavLink>
-            <NavLink to="/location" className="nav-link">
+            <NavLink to="/credits" className="nav-link">
                 <img src="/images/iconos/locationIcon.svg" alt="Location" className="nav-icon" />
             </NavLink>
         </footer>
