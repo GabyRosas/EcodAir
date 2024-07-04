@@ -1,4 +1,30 @@
-.test{
+.details{
     color: black;
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2em;
+    padding: 1em;
+
+    .left {
+        width: 20vw;
+        background-color: rgb(112, 210, 70);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.2em solid green;
+        border-radius: 2em 0em 0em 2em;
+    }
+
+    .right{
+        width: 80vw;
+        border: 0.2em solid green;
+        border-radius: 0em 2em 2em 0em;
+    }
+
+    img{
+        width: 10vw;
+    }
+
+    ul{
+    }
 }

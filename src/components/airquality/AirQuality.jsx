@@ -1,5 +1,6 @@
 import useApi from '../../services/useApi';
 import './AirQuality.scss'
+import happyface from "../../../public/happyface.png"
 
 function AirQuality() {
    
@@ -10,8 +11,13 @@ function AirQuality() {
           }
        
     return (
-        <div class="test">
+        <div class="info">
         <h2>Calidad del Aire en {data.data.city.name}</h2>
+          <div className="details">
+          <div className="left">
+            <img src={happyface} alt="" />
+          </div>
+          <div className="right">
         <p><strong>Índice AQI:</strong> {data.data.aqi}</p>
         <p><strong>Contaminante dominante:</strong> {data.data.dominentpol}</p>
         <h3>Índices IAQI:</h3>
@@ -26,6 +32,8 @@ function AirQuality() {
             <li key={index}>{attr.name}</li>
           ))}
         </ul>
+        </div>
+      </div>
       </div>
 
       
