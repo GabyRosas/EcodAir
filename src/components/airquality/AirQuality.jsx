@@ -1,6 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import useApi from '../../services/useApi';
 import { Paper, Typography, Grid, Box, Card, CardContent } from '@mui/material';
+import './airQuality.scss';
 
 function AirQuality() {
     const { data } = useApi('https://api.waqi.info/feed/madrid/?token=b9d964a07c93bfcde8fd48e0271666e6d36193b6');
@@ -19,7 +20,6 @@ function AirQuality() {
         pm25: data.data.forecast.daily.pm25 || [],
     };
 
-    
     const daysData = forecastData.o3.map((entry, index) => ({
         day: entry.day,
         o3: entry,
@@ -27,11 +27,22 @@ function AirQuality() {
         pm25: forecastData.pm25[index]
     }));
 
+    function getAqiClass(iaqi) {
+        if (iaqi <= 50) return 'aqi-good';
+        else if (iaqi <= 100) return 'iaqi-moderate';
+        else if (iaqi <= 150) return 'iaqi-unhealthy-sens';
+        else if (iaqi <= 200) return 'iaqi-unhealthy';
+        else if (iaqi <= 300) return 'iaqi-very-unhealthy';
+        return 'iaqi-hazardous';
+    }
+
     return (
-        <Paper elevation={3} style={{ padding: 16, maxWidth: 400, margin: '0 auto' }}>
+        <Paper className="containerData" elevation={3} style={{ padding: 16, maxWidth: 400, margin: '0 auto'  }}>
             <Typography variant="h6">Calidad del Aire en {data.data.city.name}</Typography>
             <Box textAlign="center" marginBottom={2}>
-                <Typography variant="h1" color="textPrimary">{data.data.aqi}</Typography>
+                <Typography variant="h1" className={getAqiClass(data.data.aqi)}>
+                    {data.data.aqi}
+                </Typography>
                 <Typography variant="h6">Moderado</Typography>
                 <Typography variant="body2">Actualizado el {new Date(data.data.time.iso).toLocaleString()}</Typography>
             </Box>

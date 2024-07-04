@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import './Footer.css';
+import './Footer.scss';
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <NavLink to="/leyenda" className="nav-link">
                 <img src="/images/iconos/leyendaIcon.svg" alt="Leyenda" className="nav-icon" />
             </NavLink>
-            <NavLink to="/location" className="nav-link">
+            <NavLink to="/credits" className="nav-link">
                 <img src="/images/iconos/locationIcon.svg" alt="Location" className="nav-icon" />
             </NavLink>
         </footer>

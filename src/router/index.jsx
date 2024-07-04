@@ -3,43 +3,29 @@ import Layout from "../layout/Layout";
 import Home from "../pages/Home";
 import AirQuality from "../pages/AirQuality";
 import Leyenda from "../pages/Leyenda";
-import Location from "../pages/Location";
-import ColorsMeter from "../pages/ColorsMeter";
-
-
-
-
+import Credits from "../pages/Credits";
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <Layout/>,
+        element: <Layout />,
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home />
             },
-         
             {
-                 path: "/airquality",
-                element: <AirQuality/>
-             },
-             {
+                path: "/airquality",
+                element: <AirQuality />
+            },
+            {
                 path: "/leyenda",
-                element: <Leyenda/>
+                element: <Leyenda />
             },
-         
             {
-                 path: "/location",
-                element: <Location/>
-             },
-
-             {
-                path: "/colors-meter",
-               element: <ColorsMeter/>
-            },
-                       
-       
-    ]
-},
-])
+                path: "/credits",
+                element: <Credits />
+            }
+        ]
+    }
+]);

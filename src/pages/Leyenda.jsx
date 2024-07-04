@@ -3,7 +3,6 @@ const Leyenda = () => {
 
     return (
         <>
-            
             <ColorsMeter/>
         </>
     )
