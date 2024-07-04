@@ -9,14 +9,6 @@ const Location = () => {
             <p>Gisela Soledad Hurtado</p>
             <p>Sandra Ramírez Puente</p>
             <p>Felipe Riveros Ruiz</p>
-
-            
-
-
-
-            
-
-
         </>
     )
 }
