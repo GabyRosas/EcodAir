@@ -1,0 +1,75 @@
+@use "../../components/colors-meter/ColorsMeter.jsx" as v;
+
+
+
+.SectionTotalContainer {
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 100vw;
+    overflow: auto;
+
+  }
+  
+  .SectionMeter ,
+  .SectionInfo {
+    flex: 1 1 auto;
+  }
+
+  .ImageMeter {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  
+  }
+  
+  .SectionInfo {
+      display: flex; 
+      flex-direction: row;
+      //margin: 10px; 
+      //border: 1px solid #ddd; 
+      //border-radius: 5px; 
+
+    
+  }
+  
+  
+  
+  .ContainerGood {
+    background-color: #00e400; 
+  
+  }
+  
+  .ContainerModerate {
+    background-color: #feff00; 
+   
+  }
+  
+  .ContainerSensitive {
+    background-color: #ff7e00; 
+   
+  }
+  
+  .ContainerUnhealthy {
+    background-color: #fe0000; 
+  
+  }
+  
+  .ContainerVeryUnhealthy {
+    background-color:#98014a; 
+  
+  }
+  
+  .ContainerHazardous {
+    background-color: #7e0222; 
+  
+  }
+  
+  .Description {
+  font-size: 16px;
+  color: #000000;
+  padding: 10px;
+}
+    
+  
+  
