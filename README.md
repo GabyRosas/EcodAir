@@ -13,10 +13,10 @@
 EcoDair is a project developed by our consulting firm to provide an interactive dashboard displaying real-time data on air quality using the waqi.info API. The goal is to offer a data visualization platform with real-time analysis and scalability for future improvements in air quality management.
 
 Objectives:
-- Provide an Interactive Data Visualization Platform
-- Enable Real-Time Data Analysis
-- Report on Air Quality 🌬️
-- Ensure Scalability for Future Improvements
+- Provide an Interactive Data Visualization Platform.
+- Enable Real-Time Data Analysis.
+- Report on Air Quality 🌬️.
+- Ensure Scalability for Future Improvements.
 - The design was provided by the client, eliminating the need for mockups or prototypes.
 
 ## Technical Competencies
@@ -39,7 +39,7 @@ The project focuses on:
 * [Vite](https://vitejs.dev/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
 * [Git](https://git-scm.com/): Version control system . Used together with Github, a hosting platform for software development and version control.
 * [Editor.md](https://pandao.github.io/editor.md/en.html): A simple online markdown editor.
-* [Figma](https://www.figma.com/)
+* [Figma](https://www.figma.com/): The leading collaborative design tool for building meaningful products.
 
 ## Tools
 List of Tools:
@@ -48,8 +48,10 @@ List of Tools:
 * [Sass](https://sass-lang.com/):  the most mature, stable, and powerful professional grade CSS extension language in the world.
 * [React DOM ^18.2.0 / React Router DOM ^6.24](https://reactrouter.com/en/main)
 * [Prop.types](https://www.npmjs.com/package/prop-types): ^15.8.1
+* [Netlify](https://www.netlify.com/): Essential platform for the delivery of exceptional and dynamic web experiences, without limitations.
 
-## Installation
+
+ ## Installation
 If you wish to contribute to this project, follow these steps:
 
 - Create a new branch (git checkout -b feature-branch).
