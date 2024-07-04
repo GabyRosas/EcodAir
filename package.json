@@ -7,13 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "sass": "sass ./src/sass/style.scss ./public/css/style.css",
+    "sass-w": "sass --watch ./src/sass/style.scss ./public/css/style.css"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.24.0"
+    "react-router-dom": "^6.24.0",
+    "sass": "^1.77.6"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
