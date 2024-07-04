@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./ColorsMeter.scss"
 import Meter from "../../assets/images/meter.png";
 
@@ -9,7 +9,7 @@ const ColorsMeter = () => {
 
 
 <div className='container'>
- <div div className='image-container'>
+ <div className='image-container'>
 <img src = {Meter} alt = "Meter" />
 </div>
 
