@@ -5,7 +5,8 @@ const Navbar = () => {
     return (
         <navbar className="navbar">
             <h1 id="EcoAirh1">EcodAir</h1>
-        </navbar>
+            <img src="/public/images/Hojas.png" alt="Hoja"  />
+            </navbar>
     );
 }
 export default Navbar;
