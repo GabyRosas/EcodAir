@@ -1,7 +1,10 @@
+
+import Homes from "../components/home/Homes";
+
 const Home = () => {
     return (
         <>
-            <h1>Home page</h1>
+                <Homes/>
         </>
     )
 }
