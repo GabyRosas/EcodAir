@@ -1,17 +1,7 @@
-.nav-link {
-    margin-right: 20px; 
-    margin-top: 0%;
-}
-
-/* Asegúrate de que el último enlace no tenga un margen a la derecha */
-.nav-link:last-child {
-    margin-right: 10px;
-}
-
-nav {
+#EcoAirh1{
+    color: #A8E060;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    align-items: flex-end;
-   
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
