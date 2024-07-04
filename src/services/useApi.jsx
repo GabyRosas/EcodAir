@@ -4,7 +4,7 @@ const useApi = (url) =>{
     const [data, setData] = useState(null)
 
     useEffect(()=>{
-        const getData = async(url) =>{
+        const getData = async() =>{
             try{
                 const response = await fetch(url);
                 if(!response.ok){
@@ -17,7 +17,7 @@ const useApi = (url) =>{
                 console.error(`Error fectching data: ${error}`);
             }
         }
-        getData(url);
+        getData();
     }, [url]);
     return{data}
 
