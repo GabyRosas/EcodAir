@@ -2,8 +2,6 @@ import React from 'react';
 import useApi from '../../services/useApi';
 import { Paper, Typography, Grid, Box, Card, CardContent } from '@mui/material';
 
-import 'chart.js/auto';
-
 function AirQuality() {
     const { data } = useApi('https://api.waqi.info/feed/madrid/?token=b9d964a07c93bfcde8fd48e0271666e6d36193b6');
 
