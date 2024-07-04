@@ -4,8 +4,6 @@ import Home from "../pages/Home";
 import AirQuality from "../pages/AirQuality";
 import Leyenda from "../pages/Leyenda";
 import Location from "../pages/Location";
-import ColorsMeter from "../pages/ColorsMeter";
-
 
 
 
@@ -34,11 +32,7 @@ export const router = createBrowserRouter([
                 element: <Location/>
              },
 
-             {
-                path: "/colors-meter",
-               element: <ColorsMeter/>
-            },
-                       
+                   
        
     ]
 },
