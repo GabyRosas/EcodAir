@@ -94,9 +94,8 @@ Thank you for taking the time to check out our project! We hope it provides valu
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Felipe, developer**</a></p>
 
 
-(Back-end): [Developer's Name]
 
-We are a team of 6 front-end developers and 1 back-end developer collaborating on this project, as part of a national hackathon, using the SCRUM methodology to deliver results in 2 days.
+We are a team of 6 front-end developers collaborating on this project, as part of a national hackathon, using the SCRUM methodology to deliver results in 2 days.
 
  ### Expressions of Gratitude 🎁
 To show our appreciation for the hard work and dedication, we hope to be invited to enjoy some micheladas together! Thank you for your commitment and teamwork!
