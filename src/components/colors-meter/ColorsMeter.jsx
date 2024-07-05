@@ -1,6 +1,6 @@
 // import React from "react";
 import "./ColorsMeter.scss"
-import Meter from "../../assets/images/Meter.png";
+import Meter from "../../assets/images/meter.png";
 
 
 const ColorsMeter = () => {
